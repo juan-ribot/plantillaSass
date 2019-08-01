@@ -1,3 +1,6 @@
+/* // *****************************
+// ++++++++++++ SASS +++++++++++
+// ***************************** */
 /* -------------------- */
 /* MINIMAL CSS RESET */
 /* -------------------- */
@@ -186,6 +189,32 @@ input:checked ~ .desplegable {
 /* // *****************************
    // +++++++ $GRIDS ++++++
    // ***************************** */
+.grid1x3 {
+  display: -ms-grid;
+  display: grid;
+  grid-template-areas: "menu logo avatar";
+}
+
+.grid1x3__menu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: menu;
+}
+
+.grid1x3__logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: logo;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+.grid1x3__avatar {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: avatar;
+}
+
 /* // *****************************
    // +++++++ $LAYOUTS ++++++
    // ***************************** */

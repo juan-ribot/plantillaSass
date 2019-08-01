@@ -44,22 +44,34 @@
         * Bloque HEADER
         *
         -->
-        <header>
+        <header class="grid1x3">
 <!-- Menú Móvil -->
 
 <!-- Icono -->
-<input type="checkbox" id="boton">
-<label for="boton">
-	<i class="fas fa-bars"></i>
-</label>
+                <nav class="grid1x3__menu">
+                        <input class="grid1x3__menu__check" type="checkbox" id="boton">
+                        <label class="grid1x3__menu__icon"  for="boton">
+	                <i class="fas fa-bars"></i>
+                        </label>
 <!-- Desplegable -->
-<ul class="desplegable">
-	<li>item1</li>
-	<li>item2</li>
-	<li>item3</li>
-	<li>item4</li>
-	<li>item5</li>
-</ul>
+                        <ul class="grid1x3__menu__desplegable">
+	                        <li class="grid1x3__menu__desplegable__home--rojo desplegable">item1</li>
+	                        <li class="grid1x3__menu__desplegable__discovery">item2</li>
+	                        <li class="grid1x3__menu__desplegable__photos">item3</li>
+	                        <li class="grid1x3__menu__desplegable__contact">item4</li>
+	
+                        </ul>
+                        <h2 class="grid1x3__logo">LOGO</h2>
+                        <img class="grid1x3__avatar" src="/assets/img/avatar.png" alt="">
+
+</nav>
+
+<!--
+        *
+        * Bloque Banner
+        *
+        -->
+
 
         </header>
     
