@@ -4,14 +4,20 @@
 
    .grid1x3{
        display: grid;
-       grid-template-areas: "menu logo avatar";
+        /* grid-template:150px / auto auto auto;  */ 
+       align-items: center;
+       grid-template-areas: 
+       "menu logo avatar";
+       
        &__menu{
            grid-area: menu;
        }
+
        &__logo{
            grid-area: logo;
            justify-self: center;
        }
+
        &__avatar{
            grid-area: avatar;
        }

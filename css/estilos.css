@@ -186,12 +186,21 @@ input:checked ~ .desplegable {
 /* // *****************************
    // +++++++ $BANNERS ++++++
    // ***************************** */
+.bannerPrincipal {
+  background: url() no-repeat;
+  height: 390px;
+}
+
 /* // *****************************
    // +++++++ $GRIDS ++++++
    // ***************************** */
 .grid1x3 {
   display: -ms-grid;
   display: grid;
+  /* grid-template:150px / auto auto auto;  */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   grid-template-areas: "menu logo avatar";
 }
 
