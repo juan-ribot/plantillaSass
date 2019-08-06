@@ -195,24 +195,25 @@ input:checked ~ .desplegable {
    // +++++++ $GRIDS ++++++
    // ***************************** */
 .grid1x3 {
+  padding: 0 16px;
   display: -ms-grid;
   display: grid;
   /* grid-template:150px / auto auto auto;  */
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  grid-template-areas: ". menu logo avatar .";
+  grid-template-areas: " menu logo avatar ";
 }
 
 .grid1x3 .grid1x3__menu {
   -ms-grid-row: 1;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   grid-area: menu;
 }
 
 .grid1x3 .grid1x3__logo {
   -ms-grid-row: 1;
-  -ms-grid-column: 3;
+  -ms-grid-column: 2;
   grid-area: logo;
   -ms-grid-column-align: center;
   justify-self: center;
@@ -220,7 +221,7 @@ input:checked ~ .desplegable {
 
 .grid1x3 .grid1x3__avatar {
   -ms-grid-row: 1;
-  -ms-grid-column: 4;
+  -ms-grid-column: 3;
   grid-area: avatar;
   -ms-grid-column-align: end;
   justify-self: end;

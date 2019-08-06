@@ -3,12 +3,13 @@
    // ***************************** */
 
    .grid1x3{
+       padding:  0 16px ;
        display: grid;
        
         /* grid-template:150px / auto auto auto;  */ 
        align-items: center;
        grid-template-areas: 
-       ". menu logo avatar .";
+       " menu logo avatar ";
     
        
        .grid1x3__menu{
