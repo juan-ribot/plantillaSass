@@ -3,16 +3,15 @@
    // ***************************** */
 
    .bannerPrincipal{
-       background: url() no-repeat;
+    background: url(/assets/img/smartphone/@1x/Image.png) no-repeat;
        height: 390px;
 
-       &__titulo{
-   }
-   &__linea{}
+        &__titulo{}
+        &__linea{}
 
-   &__subtitulo{}
-       &__parrafo{}
-       &__btn{}
+        &__subtitulo{}
+        &__parrafo{}
+        &__btn{}
 
 
    }

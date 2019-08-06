@@ -187,7 +187,7 @@ input:checked ~ .desplegable {
    // +++++++ $BANNERS ++++++
    // ***************************** */
 .bannerPrincipal {
-  background: url() no-repeat;
+  background: url(/assets/img/smartphone/@1x/Image.png) no-repeat;
   height: 390px;
 }
 

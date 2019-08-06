@@ -4,23 +4,25 @@
 
    .grid1x3{
        display: grid;
+       
         /* grid-template:150px / auto auto auto;  */ 
        align-items: center;
        grid-template-areas: 
        "menu logo avatar";
+    }
        
-       &__menu{
+       .grid1x3__menu{
            grid-area: menu;
        }
 
-       &__logo{
+       .grid1x3__logo{
            grid-area: logo;
            justify-self: center;
        }
 
-       &__avatar{
+       .grid1x3__avatar{
            grid-area: avatar;
-       }
+       
 
 
    }
