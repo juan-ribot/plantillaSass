@@ -8,8 +8,8 @@
         /* grid-template:150px / auto auto auto;  */ 
        align-items: center;
        grid-template-areas: 
-       "menu logo avatar";
-    }
+       ". menu logo avatar .";
+    
        
        .grid1x3__menu{
            grid-area: menu;
@@ -22,6 +22,11 @@
 
        .grid1x3__avatar{
            grid-area: avatar;
+           justify-self: end;
+        
+        }
+           
+           
        
 
 
